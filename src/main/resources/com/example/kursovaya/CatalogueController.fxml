@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #D2B48C;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursovaya.CatalogueController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TabPane layoutX="25.0" layoutY="42.0" prefHeight="350.0" prefWidth="543.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Пуэр">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: white;">
+                           <children>
+                              <VBox alignment="TOP_CENTER" layoutX="14.0" layoutY="10.0" prefHeight="302.0" prefWidth="206.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fitHeight="146.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Photos/PuerMuEnChun.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <GridPane>
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label text="40$" />
+                                          <Label text="400 гр." GridPane.columnIndex="1" />
+                                       </children>
+                                    </GridPane>
+                                    <Label alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="197.0" text="Шу Пуэр Чистейший Гунтин &quot;Му Е Чунь&quot;, 400Г/Блин, 2016 год " wrapText="true">
+                                       <font>
+                                          <Font name="System Bold Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="Puer1Button" mnemonicParsing="false" prefHeight="18.0" prefWidth="192.0" text="Купить">
+                                       <font>
+                                          <Font name="Cambria Math" size="12.0" />
+                                       </font>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <VBox.margin>
+                                          <Insets bottom="3.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets bottom="3.0" top="1.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets left="5.0" right="5.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox alignment="TOP_CENTER" layoutX="308.0" layoutY="10.0" prefHeight="302.0" prefWidth="206.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fitHeight="146.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Photos/PuerOldTree.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <GridPane>
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label text="35$" />
+                                          <Label text="357 гр." GridPane.columnIndex="1" />
+                                       </children>
+                                    </GridPane>
+                                    <Label alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="197.0" text="Шу Пуэр &quot;Старое дерево&quot;, 357Г/Блин, 2019 год " wrapText="true">
+                                       <font>
+                                          <Font name="System Bold Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="Puer2Button" mnemonicParsing="false" prefHeight="18.0" prefWidth="192.0" text="Купить">
+                                       <font>
+                                          <Font name="Cambria Math" size="12.0" />
+                                       </font>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <VBox.margin>
+                                          <Insets bottom="3.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets bottom="3.0" top="1.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets left="5.0" right="5.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Черный">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: white;">
+                           <children>
+                              <VBox alignment="TOP_CENTER" layoutX="308.0" layoutY="10.0" prefHeight="302.0" prefWidth="206.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fitHeight="146.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Photos/BlackPion.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <GridPane>
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label text="30$" />
+                                          <Label text="357 гр." GridPane.columnIndex="1" />
+                                       </children>
+                                    </GridPane>
+                                    <Label alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="197.0" text="Чёрный чай &quot;Черный пион&quot;, 357Г/Блин, 2021 год" wrapText="true">
+                                       <font>
+                                          <Font name="System Bold Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="Black2Button" mnemonicParsing="false" prefHeight="18.0" prefWidth="192.0" text="Купить">
+                                       <font>
+                                          <Font name="Cambria Math" size="12.0" />
+                                       </font>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <VBox.margin>
+                                          <Insets bottom="3.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets bottom="3.0" top="1.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets left="5.0" right="5.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox alignment="TOP_CENTER" layoutX="14.0" layoutY="10.0" prefHeight="302.0" prefWidth="206.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fitHeight="146.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Photos/BlackDragon.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <GridPane>
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label text="25$" />
+                                          <Label text="400 гр." GridPane.columnIndex="1" />
+                                       </children>
+                                    </GridPane>
+                                    <Label alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="197.0" text="Чёрный чай &quot;Черный дракон&quot;, 400Г/Блин, 2020 год" wrapText="true">
+                                       <font>
+                                          <Font name="System Bold Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="Black1Button" mnemonicParsing="false" prefHeight="18.0" prefWidth="192.0" text="Купить">
+                                       <font>
+                                          <Font name="Cambria Math" size="12.0" />
+                                       </font>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <VBox.margin>
+                                          <Insets bottom="3.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets bottom="3.0" top="1.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets left="5.0" right="5.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="Белый">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: white;">
+                           <children>
+                              <VBox alignment="TOP_CENTER" layoutX="308.0" layoutY="10.0" prefHeight="302.0" prefWidth="206.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fitHeight="146.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Photos/Unnyan.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <GridPane>
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label text="30$" />
+                                          <Label text="357 гр." GridPane.columnIndex="1" />
+                                       </children>
+                                    </GridPane>
+                                    <Label alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="197.0" text="Белый чай &quot;Юньнань&quot;, 357Г/Блин, 2019 год " wrapText="true">
+                                       <font>
+                                          <Font name="System Bold Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="White2Button" mnemonicParsing="false" prefHeight="18.0" prefWidth="192.0" text="Купить">
+                                       <font>
+                                          <Font name="Cambria Math" size="12.0" />
+                                       </font>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <VBox.margin>
+                                          <Insets bottom="3.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets bottom="3.0" top="1.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets left="5.0" right="5.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox alignment="TOP_CENTER" layoutX="14.0" layoutY="10.0" prefHeight="302.0" prefWidth="206.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fitHeight="146.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Photos/SnowVors.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <GridPane>
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label text="33$" />
+                                          <Label text="357 гр." GridPane.columnIndex="1" />
+                                       </children>
+                                    </GridPane>
+                                    <Label alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="197.0" text="Белый чай &quot;Снежный Ворс&quot;, 357Г/Блин, 2021 год" wrapText="true">
+                                       <font>
+                                          <Font name="System Bold Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="White1Button" mnemonicParsing="false" prefHeight="18.0" prefWidth="192.0" text="Купить">
+                                       <font>
+                                          <Font name="Cambria Math" size="12.0" />
+                                       </font>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <VBox.margin>
+                                          <Insets bottom="3.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets bottom="3.0" top="1.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets left="5.0" right="5.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Зеленый">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: white;">
+                           <children>
+                              <VBox alignment="TOP_CENTER" layoutX="308.0" layoutY="10.0" prefHeight="302.0" prefWidth="206.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fitHeight="146.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Photos/FeiPin.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <GridPane>
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label text="27$" />
+                                          <Label text="357 гр." GridPane.columnIndex="1" />
+                                       </children>
+                                    </GridPane>
+                                    <Label alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="197.0" text="Зеленый чай &quot;Фей Пин&quot;, 357Г/Блин, 2020 год " wrapText="true">
+                                       <font>
+                                          <Font name="System Bold Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="Green2Button" mnemonicParsing="false" prefHeight="18.0" prefWidth="192.0" text="Купить">
+                                       <font>
+                                          <Font name="Cambria Math" size="12.0" />
+                                       </font>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <VBox.margin>
+                                          <Insets bottom="3.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets bottom="3.0" top="1.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets left="5.0" right="5.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                              <VBox alignment="TOP_CENTER" layoutX="14.0" layoutY="10.0" prefHeight="302.0" prefWidth="206.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fitHeight="146.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Photos/PinVuCha.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <GridPane>
+                                       <columnConstraints>
+                                          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                       </columnConstraints>
+                                       <rowConstraints>
+                                          <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                       </rowConstraints>
+                                       <children>
+                                          <Label text="35$" />
+                                          <Label text="400 гр." GridPane.columnIndex="1" />
+                                       </children>
+                                    </GridPane>
+                                    <Label alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="197.0" text="Зеленый чай &quot;&quot;Пин Ву Ча&quot;, 400Г/Блин, 2016 год " wrapText="true">
+                                       <font>
+                                          <Font name="System Bold Italic" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="Green1Button" mnemonicParsing="false" prefHeight="18.0" prefWidth="192.0" text="Купить">
+                                       <font>
+                                          <Font name="Cambria Math" size="12.0" />
+                                       </font>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <VBox.margin>
+                                          <Insets bottom="3.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets bottom="3.0" top="1.0" />
+                                       </padding>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets left="5.0" right="5.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+            <Label layoutX="234.0" layoutY="-11.0" prefHeight="50.0" prefWidth="125.0" text="Мир Чая">
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.7080000042915344" blue="0.27000001072883606" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+               <font>
+                  <Font name="Gabriola" size="41.0" />
+               </font>
+            </Label>
+            <Button fx:id="BackButton" layoutY="2.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="74.0" style="-fx-background-color: orange;" text="Назад" textFill="WHITE">
+               <font>
+                  <Font name="Mont Heavy DEMO" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
